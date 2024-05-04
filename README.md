@@ -184,7 +184,7 @@ classifier.save('cell_model.h5')
 
 
 losses = pd.DataFrame(classifier.history.history)
-print("VINOD KUMAR -212222240116)
+print("SACHIN C -212222230125)
 losses[['loss','val_loss']].plot()
 
 
@@ -198,10 +198,10 @@ test_image_gen.classes
 
 predictions = pred_probabilities > 0.5
 
-print("SACHIN C -212222230125")
+print("SACHIN C - 212222230125")
 print(classification_report(test_image_gen.classes,predictions))
 
-print("SACHIN C-212222230125)
+print("SACHIN C - 212222230125)
 confusion_matrix(test_image_gen.classes,predictions)
 
 ```
